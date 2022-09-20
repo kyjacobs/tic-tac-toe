@@ -214,11 +214,8 @@
             for(let i = 0; i < 9; i++) {
                 this.myBoard = document.getElementById('board');
                 const div = document.createElement('div');
-                const h1 = document.createElement('h1');
                 div.classList.add('cell');
-                h1.classList.add('symbol');
                 div.setAttribute('id', `c${i}`);
-                div.appendChild(h1);
                 this.myBoard.appendChild(div);
             }
         };
